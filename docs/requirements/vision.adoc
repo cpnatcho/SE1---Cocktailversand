@@ -63,6 +63,18 @@ Siehe <<#glossary, Glossar>>.
 [%header, cols="1,3,3"]
 |===
 | Name | Beschreibung | Verantwortlichkeiten
+| Barbetreiber 
+| Auftraggeber, welcher ein funktionierendes Bestellsystem als Endprodukt haben möchte. Sein Ziel ist es, ein Produkt auf seine Wünsche zugeschnitten zu erhalten.
+| Dieser Stakeholder wird keine Änderungen in das System einpflegen oder aus Bar-Sicht benutzen. Er wird Inkremente testen und kritisch bewerten.
+| Mitarbeiter
+| Nutzer aus Bar-Sicht. Er möchte mit dem System arbeiten, um Bestellstornierungen abzuwickeln, Bestellungen abzulesen und auszuführen, E-Mailadressen der Kunden aus dem System nutzen um Event-Emails zu versenden, Konditionen (wie zB. Rabatte) an Kunden geben sowie Kunden sperren.
+| Dieser Stakeholder testet das Produkt.
+| Besteller kleiner Mengen
+| Kunde des Cocktailversands. Sein Ziel ist es, Standard-Cocktails sowie individuelle Cocktails zusammenzustellen und über die Bestellwebseite über verschiedene Zahlungsmöglichkeiten zu kaufen. 
+| Dieser Stakeholder wird das fertige Produkt nutzen.
+| Besteller größerer Mengen
+| Kunde des Cocktailversands, welcher für Events (zB. Hochzeit, Geburtstag) große Mengen an Cocktails einkauft. Sein Ziel ist es, den Überblick über seine Bestellung zu haben, zwischen Standard- und Individualcocktails zu wählen und bei Bedarf zu stornieren.
+| Hauptnutzer des Systems. Sein Interesse ist die schnelle und unkomplizierte Abwicklung einer großen, komplexen Bestellung.
 
 | [Benennung des Stakeholders (als Rolle)]
 | [Kurze Beschreibung des Stakeholders und seiner Ziele]
@@ -80,7 +92,50 @@ Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mi
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features / Funktionen | Geplantes Release
-| xx | xx | xx | xx
+| Bezahlmöglichkeit
+| sehr hoch
+| Schnittstelle zu einer Bezahlplattform (z.B. Stripe), welcher die komplette Zahlungsabwicklung und Management mit den Zahlungsprovidern regelt. | xx 
+| Warenkorb
+| sehr hoch
+| Ein Warenkorb, der die bisherigen Produkte und Mengen übersichtlich anzeigt.
+| xx 
+| Anzeige aller Cocktails und Zutaten
+| sehr hoch
+| Darstellung aller zur Verfügung stehenden Produkte über eine Schnittstelle zu einer Datenbank, in welcher die Verfügbarkeit und Produktanzahl gepflegt wird. Wird eine Bestellung ausgeführt, soll sich die Anzahl in der Datenbank vermindern.
+| xx
+| Individuelle Zusammenstellung eines Cocktails
+| hoch
+| Cocktailkonfigurator: Option, sich einen eigenen Cocktail mit zu wählenden Zutaten und Toppings zu erstellen. Um den Kunden zu unterstützen, sollen Vorschläge zur cl-Wahl sowie miteinander harmonierende Zutaten angezeigt werden. Oder bestehende Cocktails nach eigenen Wünschen abändern. 
+| xx
+| schnelles Finden und Aussuchen von Cocktails
+| sehr hoch
+| Kategorien, Suchfunktion oder eine andere Funktionalität, um schnell und übersichtlich 120 angebotenen Cocktails sowie 100 Zutaten sollen diese in Kategorien angezeigt werden. Z. B. nach Events oder Geschmack, um den Nutzer übersichtlich durchzuführen.
+| xx
+| Rechtskonformität
+| sehr hoch
+| Altersprüfung
+| xx
+| Verwaltung der Bestellung (Mitarbeitersicht)
+| hoch
+| Anzeige aller Bestellungen (priorisiert)
+| xx
+| Kundenkonto
+| mittel
+| Bei wiederkehrenden Bestellungen
+| xx
+| Auftragseinsicht
+| hoch
+| Bestellung einsehen, Status der Bestellung einsehen oder Bestellung stornieren
+| xx
+| Feedbackmechnismus
+| Öffentliche Rezensionen
+| hoch
+| Kundenbindung
+| xx
+| Rabattaktionen
+| mittel
+| Kundenbindung
+| xx
 |===
 
 

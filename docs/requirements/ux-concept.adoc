@@ -21,6 +21,16 @@ In diesem Dokument werden die Benutzeroberflächen des Systems {project-system-n
 // Beschreiben Sie die Arbeitsaufgaben, Arbeitsmittel, physische und soziale Umgebung, in der das Produkt genutzt wird. 
 // Eventuell sind Angaben zu Fehlerquellen, Häufigkeiten von Ereignisse sowie Bearbeitungsdauern von Vorgängen relevant
 
+*Kunden*
+
+* Eine Person, die das Bestellsystem bedienen wird. 
+* Umgebungsbedingung ist zuhause, entweder am Laptop (zB. bei einer großen Eventplanung) oder mobil, für spontane oder kleinere Bestellungen. 
+
+*Mitarbeiter*
+
+* Führen die Onlinebestellung direkt in der Bar aus. Zum Einsatz für den bisherigen Barbetrieb gibt es Tablets, auf welchen die Bestellungen angezeigt werden sollen. So können die Mitarbeiter die Bestellungen direkt ausführen.
+* Die Umgebungsbedingung des Systems ist ein Gerät in der Bar, welches durch wenige Klicks bedient werden kann. Bestellungen sollen auf einen Blick übersichtlich sichtbar sein, da die Individualcocktails komplex sein können. Mitarbeiter haben ggf. klebrige Finger und wollen übermäßiges Touchen auf den Bildschirm vermeiden.
+
 //Hier sind einige Anregungen:
 
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
