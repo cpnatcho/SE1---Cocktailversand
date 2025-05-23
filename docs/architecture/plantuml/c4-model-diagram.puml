@@ -12,15 +12,15 @@ title \nSystem Context diagram for Cocktail Delivery System\n
 
 ' Diagram syntax
 Person(customer, Customer, "<$user> <$mobile_user>\n A customer of cocktail-delivery-service")
-Enterprise_Boundary(c0, "Cocktail Delivery Service") {
-  System(webshop_system, "Internet Webshop", "Allows customers to view and order cocktails")
+Enterprise_Boundary(c0, "Cocktail Bar") {
+  System(webshop_system, "Cocktail Delivery Webshop", "Allows customers to view and order cocktails")
 
-  System_Ext(pay_system, "Payment System", "Processes cocktail payment")
-  System_Ext(database, "Database", "Stores all of the core information about customers, accounts, transactions, ingredients.")
-
-  Rel(customer, webshop_system, "Uses")
-  Rel_Back(pay_system, customer, "Gets successfully payment data")
-  Rel_Neighbor(webshop_system, pay_system, "Sends JSON data")
-  Rel(webshop_system, database, "Uses")
+  'SystemDb(database, "Database", "Stores all of the core information about customers, accounts, transactions, ingredients.")
 }
+System_Ext(pay_system, "Payment System", "Processes cocktail payment")
+
+Rel(customer, webshop_system, "Uses")
+Rel_Back(webshop_system, pay_system, "Gets successfully payment data back")
+Rel_Neighbor(webshop_system, pay_system, "Sends JSON data")
+'Rel(webshop_system, database, "Uses")
 @enduml
